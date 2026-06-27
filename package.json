@@ -2,7 +2,7 @@
   "name": "voice-bot-monorepo",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build"
+    "build": "cd frontend && npm install && npm run build && cd .. && cp -r frontend/dist ./dist"
   },
   "dependencies": {
     "cors": "^2.8.5",
