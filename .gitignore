@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Local env files (MUST be ignored to avoid leaking API Keys!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.local
+
+# Production builds
+dist/
+**/dist/
+build/
+**/build/
+
+# IDE files and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
